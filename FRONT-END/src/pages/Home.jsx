@@ -28,7 +28,7 @@ export default function Home() {
             <Grid container spacing={2}>
               <Grid item xs={8}>
                 <Stack spacing={2} direction="row">
-                  <Card sx={{ minWidth: 49 + "%", height: 150 }} className="gradient">
+                  <Card sx={{ minWidth: 49 + "%", height: 150 }} className='gradient'>
                     <CardContent>
                       <div className='iconstyle'>
                         <CreditCardIcon />
@@ -42,9 +42,9 @@ export default function Home() {
 
                     </CardContent>
                   </Card>
-                  <Card sx={{ minWidth: 49 + "%", height: 140 }} className='gradientlight'>
+                  <Card sx={{ minWidth: 49 + "%", height: 140 }} className ='gradientlight'>
 
-                    <div className='iconstyle'>
+                    <div className ='iconstyle'>
                       <ShoppingBagIcon />
                     </div>
                     <CardContent>
@@ -60,13 +60,13 @@ export default function Home() {
               </Grid>
 
               <Grid item xs={4}>
-                <Stack spacing={2} >
-                  <Card className="gradientlight">
-                    <Stack spacing={2} direction="row">
-                      <div className='iconstyle'>
+                <Stack spacing={2}  >
+                  <Card className="gradientlight" sx={{ color: " #f0fcfc" }}>
+                    <Stack spacing={2} direction="row" className='gradientlight'>
+                      <div className='iconstyle paddingall'>
                         <StorefrontIcon />
                       </div>
-                      <div className='paddingall'>
+                      <div className ='paddingall'>
                         <span className='pricetitle fontwhite'>Rs.203k </span>
                         <br />
                         <span className='pricesubtitle fontlightgrey'>Total Income</span>
@@ -74,8 +74,8 @@ export default function Home() {
                     </Stack>
                   </Card>
                   <Card>
-                    <Stack spacing={2} direction="row">
-                      <div className='iconstyle'>
+                    <Stack spacing={2} direction="row" className='gradient' sx={{ color: " #f0fcfc" }}>
+                      <div className='iconstyle paddingall'>
                         <StorefrontIcon />
                       </div>
                       <div className="paddingall">
