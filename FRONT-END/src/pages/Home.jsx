@@ -28,7 +28,7 @@ export default function Home() {
             <Grid container spacing={2}>
               <Grid item xs={8}>
                 <Stack spacing={2} direction="row">
-                  <Card sx={{ minWidth: 49 + "%", height: 150 }} className='gradient'>
+                  <Card sx={{ minWidth: 49 + "%", height: 150 }} className="gradient">
                     <CardContent>
                       <div className='iconstyle'>
                         <CreditCardIcon />

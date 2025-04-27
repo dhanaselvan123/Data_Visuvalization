@@ -9,5 +9,8 @@
     "lucide-react": "^0.477.0",
     "papaparse": "^5.5.2",
     "react-chartjs-2": "^5.3.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
